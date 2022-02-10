@@ -1,13 +1,13 @@
-double ci(double p,double r,int t)
+double ci()
 {
-    double ci;
+    double p,r,t,ci;
     int n;
     printf("Enter Princple amount=");
     scanf("%lf",&p);
     printf("Enter Rate Of Interest=");
     scanf("%lf",&r);
     printf("Enter Time=");
-    scanf("%d",&t);
+    scanf("%lf",&t);
     printf("1.Yearly\n2.Half yearly\n3.Quaterly\n4.Monthly\nChoose a Interest mode=");
     scanf("%d",&n);
     if(n==1)

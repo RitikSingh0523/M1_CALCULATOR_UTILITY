@@ -28,8 +28,14 @@ double simple()
     case 4:
         printf("Enter Both Operand\n");
         scanf("%lf %lf", &operand1, &operand2);
+        if(operand2==0)
+        {
+            printf("Secound Input Can not be zero");
+        }
+        else{
         div=operand1/operand2;
         printf("sum is =%lf",div);
+        }
         break;
     case 5:
         printf("Enter Your Operand\n");
@@ -46,6 +52,7 @@ double simple()
         }
         printf("Factorial=%lf",fact);   
     default:
+        printf("Wrong Input");
         break;
     }
 
