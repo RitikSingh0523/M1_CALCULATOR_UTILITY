@@ -33,7 +33,7 @@ double simple()
             printf("Secound Input Can not be zero");
         }
         else{
-        div=operand1/operand2;
+        di=operand1/operand2;
         printf("sum is =%lf",di);
         }
         break;
