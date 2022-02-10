@@ -1,34 +1,58 @@
-float ci()
+double ci(double p,double r,int t)
 {
-    double p,r,ci;
-    int t,n;
+    double ci;
+    int n;
     printf("Enter Princple amount=");
     scanf("%lf",&p);
     printf("Enter Rate Of Interest=");
     scanf("%lf",&r);
     printf("Enter Time=");
     scanf("%d",&t);
-    printf("1.Yearly\n2.Half yearly\n3.Quaterly\nChoose a Interest mode=");
+    printf("1.Yearly\n2.Half yearly\n3.Quaterly\n4.Monthly\nChoose a Interest mode=");
     scanf("%d",&n);
-    if(n==2)
+    if(n==1)
     {
-        double po=1,q=1+((r/2)/100);
-       for(int i=1;i=t;i++)
-       {
-         po=po*q;
-       }
-       ci=p*po;
-       printf("Compound Interest=%lf",ci);
+        double q=(1+r/100);
+        
+        double pow=1;
+        for(int i=0; i<t;i++)
+        {
+            pow=pow*q;
+        }
+        
+        printf("\nCompound Interest=%lf",p*pow);
     }
-    else if(n==1)
+    else if(n==2)
     {
-        double po=1,q=1+(r/100);
-       for(int i=0;i<t;i++)
-       {
-         po=po*q;
-       }
-       //printf("%lf",po);
-       ci=p*po;
-       printf("Compound Interest=%lf",ci);
+        double q=(1+r/200);
+        double pow=1;
+        for(int i=0; i<t*2;i++)
+        {
+            pow=pow*q;
+        }
+        printf("Compound Interest=%lf",p*pow);
+    }
+    else if(n==3)
+    {
+        double q=(1+r/400);
+        double pow=1;
+        for(int i=0; i<t*4;i++)
+        {
+            pow=pow*q;
+        }
+        printf("\nCompound Interest=%lf",p*pow);
+    }
+    else if(n==4)
+    {
+        double q=(1+r/1200);
+        double pow=1;
+        for(int i=0; i<t*12;i++)
+        {
+            pow=pow*q;
+        }
+        printf("\nCompound Interest=%lf",p*pow);
+    }
+    else{
+        printf("\nwrong input");
     }
 }
