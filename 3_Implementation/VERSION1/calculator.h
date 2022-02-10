@@ -1,9 +1,9 @@
-#include<stdio.h>
+//Simple Arthematic Operator
 double simple()
 {
-    double operand1, operand2,sum=0,substract=0,mul=0,div=0,sqr=0,fact;
+    double operand1, operand2,sum=0,substract=0,mul=0,div=0,sqr=0,fact=1;
     int operator;
-    printf("Enter a operator\n1.Sum\n2. Substract \n3.Multiplication\n4.Division\n5.Square\n6.Factorial(!)\n");
+    printf("1.Sum\n2. Substract \n3.Multiplication\n4.Division\n5.Square\n6.Factorial(!)\nEnter a operator\n");
     scanf("%d", &operator);
     switch (operator)
     {
@@ -40,21 +40,14 @@ double simple()
     case 6:
         printf("Enter the Operand\n");
         scanf("%lf",&operand1);
-        for (int i = 0; i < operand1; i++)
+        for (int i = 1; i <= operand1; i++)
         {
-            fact=fact*i;
+            fact=i*fact;
         }
-        printf("Factorial=%lf",fact);
-        
-        
-        
+        printf("Factorial=%lf",fact);   
     default:
         break;
     }
 
 
-}
-int main()
-{
-    return simple(); 
 }
