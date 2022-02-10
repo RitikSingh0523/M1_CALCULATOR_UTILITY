@@ -2,6 +2,5 @@
 #include "simple_cal.h"
 int main()
 {
-    return simple();
-   
+    return simple(); 
 }
