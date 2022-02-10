@@ -1,6 +1,0 @@
-HIGH LEVEL REQUIRMENT 
-
-You Have Different feature you can choose with like if want calculate you incometax or compound interest or simple interest
-or simple calculator function
-User Will be able to do these things without any complexity.
-
