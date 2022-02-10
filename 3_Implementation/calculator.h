@@ -1,7 +1,7 @@
 //Simple Arthematic Operator
 double simple()
 {
-    double operand1, operand2,sum=0,substract=0,mul=0,div=0,sqr=0,fact=1;
+    double operand1, operand2,sum=0,substract=0,mul=0,di=0,sqr=0,fact=1;
     int operator;
     printf("1.Sum\n2. Substract \n3.Multiplication\n4.Division\n5.Square\n6.Factorial(!)\nEnter a operator\n");
     scanf("%d", &operator);
@@ -34,7 +34,7 @@ double simple()
         }
         else{
         div=operand1/operand2;
-        printf("sum is =%lf",div);
+        printf("sum is =%lf",di);
         }
         break;
     case 5:
