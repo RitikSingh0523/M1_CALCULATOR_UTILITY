@@ -214,7 +214,7 @@ Run command ./output-filename to run command
        M01QA01	       IT SHOULD INITATE AFTER M01Q03	                   NA	                    NA	    It should return simple interest     	               Pass
        M01WA01	       USER NEED TO CHOOSE A MODE OF INTEREST	Option Based Input(1,2,3)	Option Based Input(1,2,3)	Result according to mode of interest	     Pass
        
-       ![image](https://user-images.githubusercontent.com/63330246/153559976-75018af0-08f9-46be-a3e3-07bde2835833.png)
+  ![image](https://user-images.githubusercontent.com/63330246/153559976-75018af0-08f9-46be-a3e3-07bde2835833.png)
 
 
 
