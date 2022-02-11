@@ -44,6 +44,7 @@ when
 # Batch
 ![CODE QUALITY SCORE](https://api.codiga.io/project/30927/score/svg)
 ![code score](https://api.codiga.io/project/30927/status/svg)
+[![pages-build-deployment](https://github.com/RitikSingh0523/M1_CALCULATOR_UTILITY/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/RitikSingh0523/M1_CALCULATOR_UTILITY/actions/workflows/pages/pages-build-deployment)
 
 
 # Implementation
