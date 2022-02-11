@@ -48,10 +48,6 @@ when
 
 # 2_Implementation
 
-# M1_CALCULATOR_UTILITY
-# M1_CALCULATOR_UTILITY
-
-
 # Description
 
 IT IS A BASIC CALCULATOR FOR NORMAL USE.
@@ -100,9 +96,10 @@ when
 
 @ Structural Diagram
 
-![titleofscreenshot]()
+![titleofscreenshot](https://github.com/RitikSingh0523/M1_CALCULATOR_UTILITY/blob/main/2_Architecture/structuraldiagram.png)
 
-@Behavirial
+@Behavioural Diagram
+
 @Main Function
 
 Start Program
