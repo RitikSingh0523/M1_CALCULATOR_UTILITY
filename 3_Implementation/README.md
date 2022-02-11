@@ -12,7 +12,9 @@ Use vs complie to run the code
 # Run in ubuntu
 
 Run command gcc filename.c to complie
+
 Run command gcc filename.c -o output-filename to create output file
+
 Run command ./output-filename to run command
 
 # Expected Behaviour 
