@@ -10,8 +10,10 @@ IN THIS CALCULATOR YOU CAN CHOOSE WHICH KIND OF CALCULATOR YOU WANT TO USE.
 
 # High Level Requirment
 
-You Have Different feature you can choose with
-If want calculate you compound interest or simple interest or simple calculator function
+You Have Different feature you can choose with.
+
+If want calculate you compound interest or simple interest or simple calculator function.
+
 User Will be able to do these things without any complexity.
 
 # Low level requirment
@@ -49,48 +51,36 @@ when
 
 # Implementation
 
-# Description
+# Installlation
 
-IT IS A BASIC CALCULATOR FOR NORMAL USE.
-WHICH CONTAINS DIFFERENT FEATURE FOR DIFFERENT OPERATION.
-IN THIS CALCULATOR YOU CAN CHOOSE WHICH KIND OF CALCULATOR YOU WANT TO USE.
+First Install IDE for c Language.
+Suggation- Use VS code
+Install C Extention
 
-# High Level Requirment
 
-You Have Different feature you can choose with
-If want calculate you compound interest or simple interest or simple calculator function
-User Will be able to do these things without any complexity.
+# Run in Windows
 
-# Low level requirment
+Use vs complie to run the code
 
-user can enter desire data.
+# Run in ubuntu
 
-Statement of evere line should be clear.
+Run command gcc filename.c to complie
 
-So user can understand each Statement and give input according to Statement.
+Run command gcc filename.c -o output-filename to create output file
 
-Calculator Should not give wrong output.
+Run command ./output-filename to run command
 
-# 4w's & 1H
+# Expected Behaviour 
 
-Who 
-  >Anyone Who Wants to perform basic arthmatic calculation.
 
-What
-  >This is a utility application To perform Arthmatic operations.
+##### First it will ask you to select a input for selecting a type of calculator.
+##### After Selecting it will ask for choose differnt action that you can choose from.
+##### If you select Simple Calculator you have option to choose +,-,*,'/',^,!.
+##### If you select Simple Interest you have to fill detail about Amount time and rate.
+##### If you select Compound Interest you have to fill detail about Amount time and rate.
 
-Where
-  >User can belong to any background who can use this utility.
 
-when
-  >Can be used to perform all basic arthmatic operations.
 
-# How
-  >Developed Using c Programming
-
-# Batch
-![CODE QUALITY SCORE](https://api.codiga.io/project/30927/score/svg)
-![code score](https://api.codiga.io/project/30927/status/svg)
 
 
 # 2_Architecture
