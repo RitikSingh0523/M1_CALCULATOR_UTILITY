@@ -1,7 +1,7 @@
 build:
 		cat main.c calculator.c sinterest.c compound_interest.c >final.c
 
-complie:
+compile:
         
 		gcc final.c -o final.out
 
