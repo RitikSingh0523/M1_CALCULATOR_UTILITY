@@ -64,6 +64,9 @@ when
 
 ![titleofscreenshot](https://github.com/RitikSingh0523/M1_CALCULATOR_UTILITY/blob/main/2_Architecture/behaviouraldiagram.png)
 
+# Function
+![titleofscreenshot](https://github.com/RitikSingh0523/M1_CALCULATOR_UTILITY/blob/main/2_Architecture/Function1.png)
+
 @Main Function
 
 Start Program
