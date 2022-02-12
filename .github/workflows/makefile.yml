@@ -1,0 +1,5 @@
+all:
+    gcc main.c calculator.c compound_interest.c sinterest.c -o Result.out
+    
+run:
+    ./Result.out
