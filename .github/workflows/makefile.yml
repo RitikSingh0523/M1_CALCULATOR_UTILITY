@@ -7,13 +7,13 @@ on:
     branches: [ main ]
 
 jobs:
-name: Makefile
-build:
+
+	build:
 		cat main.c calculator.c sinterest.c compound_interest.c >final.c
 
-complie:
+	complie:
         
 		gcc final.c -o final.out
 
-run:
-	./final.out
+	run:
+		./final.out
