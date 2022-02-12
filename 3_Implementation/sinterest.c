@@ -1,4 +1,4 @@
-#include<stdio.h>
+
 double si()
 {
     double p,r,t,si;

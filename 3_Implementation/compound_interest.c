@@ -1,7 +1,7 @@
-#include<stdio.h>
+
 double ci()
 {
-    double p,r,t,ci;
+    double p,r,t;
     int n;
     printf("Enter Princple amount=");
     scanf("%lf",&p);
