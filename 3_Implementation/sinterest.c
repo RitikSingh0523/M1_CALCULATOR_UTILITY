@@ -12,6 +12,7 @@ double si()
     si=(p*r*t)/100;
     printf("Simple Interest of amount %lf is =%f",p,si);
     printf("\nTotal Amount is %lf",si+p);
+    printf("\n");
 
 
 }

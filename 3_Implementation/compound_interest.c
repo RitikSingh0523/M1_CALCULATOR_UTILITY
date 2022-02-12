@@ -56,4 +56,5 @@ double ci()
     else{
         printf("\nwrong input");
     }
+    printf("\n");
 }

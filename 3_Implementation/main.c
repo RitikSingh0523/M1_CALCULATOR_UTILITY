@@ -22,5 +22,5 @@ int main()
        printf("Wrong Input");
         break;
     }
-    printf("\n");
+    
 }

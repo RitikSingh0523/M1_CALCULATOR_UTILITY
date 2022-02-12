@@ -57,6 +57,7 @@ double simple()
         printf("Wrong Input");
         break;
     }
+    printf("\n");
 
 
 }
