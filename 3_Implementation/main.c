@@ -1,8 +1,6 @@
 // Define all header file 
 #include<stdio.h>
-#include"calculator.h"
-#include"sinterest.h"
-#include"compound_interest.h"
+#include"calc.h"
 int main()
 {
     int opt;//Declear main variable 

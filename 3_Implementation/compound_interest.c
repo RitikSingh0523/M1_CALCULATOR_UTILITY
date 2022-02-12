@@ -1,3 +1,4 @@
+#include<stdio.h>
 double ci()
 {
     double p,r,t,ci;

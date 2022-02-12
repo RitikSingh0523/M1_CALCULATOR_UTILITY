@@ -1,4 +1,5 @@
-//Simple Arthematic Operator
+#include<stdio.h>
+
 double simple()
 {
     double operand1, operand2,sum=0,substract=0,mul=0,di=0,sqr=0,fact=1;
