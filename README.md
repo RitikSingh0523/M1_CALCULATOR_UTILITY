@@ -129,11 +129,11 @@ Use vs complie to run the code
 
 # Run in ubuntu
 
-Run command gcc filename.c to complie
+cat main.c calculator.c compound_interest.c sinterest.c > final.c
 
-Run command gcc filename.c -o output-filename to create output file
+gcc final.c -o final.out
 
-Run command ./output-filename to run command
+./final.out
 
 # Expected Behaviour 
 
