@@ -5,7 +5,9 @@
 # Description
 
 IT IS A BASIC CALCULATOR FOR NORMAL USE.
+
 WHICH CONTAINS DIFFERENT FEATURE FOR DIFFERENT OPERATION.
+
 IN THIS CALCULATOR YOU CAN CHOOSE WHICH KIND OF CALCULATOR YOU WANT TO USE.
 
 # High Level Requirment
@@ -43,7 +45,7 @@ when
 # How
   >Developed Using c Programming
 
-# Batch
+# Badge
 ![CODE QUALITY SCORE](https://api.codiga.io/project/30927/score/svg)
 ![code score](https://api.codiga.io/project/30927/status/svg)
 [![pages-build-deployment](https://github.com/RitikSingh0523/M1_CALCULATOR_UTILITY/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/RitikSingh0523/M1_CALCULATOR_UTILITY/actions/workflows/pages/pages-build-deployment)
@@ -133,7 +135,9 @@ Use vs complie to run the code
 # Run in ubuntu
 
 TO BUILD CODE - make build
+
 TO COMPILE CODE - make compile
+
 TO RUN CODE- make run
 
 # Expected Behaviour 
