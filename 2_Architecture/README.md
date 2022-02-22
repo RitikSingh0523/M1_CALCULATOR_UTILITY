@@ -52,4 +52,3 @@ inputData = Read_Input()
 simple interest= (p*r*t)/100;
 
 return result;
-
