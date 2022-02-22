@@ -1,11 +1,11 @@
 # M1_CALCULATOR_UTILITY
-# Description
+## Description
 
 IT IS A BASIC CALCULATOR FOR NORMAL USE.
 WHICH CONTAINS DIFFERENT FEATURE FOR DIFFERENT OPERATION.
 IN THIS CALCULATOR YOU CAN CHOOSE WHICH KIND OF CALCULATOR YOU WANT TO USE.
 
-# High Level Requirment
+### High Level Requirment
 
 You Have Different feature you can choose with.
 
@@ -13,7 +13,7 @@ If want calculate you compound interest or simple interest or simple calculator 
 
 User Will be able to do these things without any complexity.
 
-# Low level requirment
+#### Low level requirment
 
 user can enter desire data.
 
@@ -22,8 +22,7 @@ Statement of evere line should be clear.
 So user can understand each Statement and give input according to Statement.
 
 Calculator Should not give wrong output.
-
-# 4w's & 1H
+##### 4w's & 1H
 
 Who 
   >Anyone Who Wants to perform basic arthmatic calculation.
@@ -36,28 +35,24 @@ Where
 
 when
   >Can be used to perform all basic arthmatic operations.
-
-# How
+How
   >Developed Using c Programming
-
 # Badge
 ![CODE QUALITY SCORE](https://api.codiga.io/project/30927/score/svg)
 ![code score](https://api.codiga.io/project/30927/status/svg)
 [![pages-build-deployment](https://github.com/RitikSingh0523/M1_CALCULATOR_UTILITY/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/RitikSingh0523/M1_CALCULATOR_UTILITY/actions/workflows/pages/pages-build-deployment)
 [![Cppcheck](https://github.com/RitikSingh0523/M1_CALCULATOR_UTILITY/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/RitikSingh0523/M1_CALCULATOR_UTILITY/actions/workflows/cppcheck.yml)
-
 # 2_Architecture
 
 @ Structural Diagram
 
 ![titleofscreenshot](https://github.com/RitikSingh0523/M1_CALCULATOR_UTILITY/blob/main/2_Architecture/structuraldiagram.png)
-
 @Behavioural Diagram
-
 ![titleofscreenshot](https://github.com/RitikSingh0523/M1_CALCULATOR_UTILITY/blob/main/2_Architecture/behaviouraldiagram.png)
 
-![titleofscreenshot](https://github.com/RitikSingh0523/M1_CALCULATOR_UTILITY/blob/main/2_Architecture/Function1.png)
 
+
+![titleofscreenshot](https://github.com/RitikSingh0523/M1_CALCULATOR_UTILITY/blob/main/2_Architecture/Function1.png)
 @Main Function
 
 Start Program
@@ -73,8 +68,6 @@ choice 2;
 .
 .
 default;
-
-
 @ call first function
 
 declear functions
@@ -88,7 +81,6 @@ else if operator = "*" result = firstNumber * secondNumber
 else if operator = "/" result = firstNumber / secondNumber
 
 return result
-
 @call secound function
 
 declear functions
@@ -97,7 +89,6 @@ inputData = Read_Input()
 compound interest=p(1+(r/n))^t
 
 return result;
-
 @call third function
 
 declear functions
@@ -119,8 +110,7 @@ TO BUILD CODE - make build
 TO COMPILE CODE - make compile
 
 TO RUN CODE- make run
-
-# Expected Behaviour 
+### Expected Behaviour 
  First it will ask you to select a input for selecting a type of calculator.
  
  After Selecting it will ask for choose differnt action that you can choose from.
@@ -130,9 +120,7 @@ TO RUN CODE- make run
  If you select Simple Interest you have to fill detail about Amount time and rate.
  
  If you select Compound Interest you have to fill detail about Amount time and rate.
-# High Level Test
-
-
+### High Level Test
       Test Code	           Test Description	                        Required Input	      Actual Input	  Expected output	                               Actual result
        M01F01	         USER HAVE TO SELECT A OPERATION                  	1	                    1       It should open simple calculator	                   Pass
        M01Q02	         USER HAVE TO SELECT A OPERATION	                2	                    2	      It should open simple Interest calculator	           Pass
@@ -145,7 +133,7 @@ TO RUN CODE- make run
        M01F07	         USER HAVE TO SELECT OPERATION BASED ON CHOICE	        6	                    6	      It should open factorial calculator                  Pass 
        M01Q03     	     USER NEED TO ENTER DATA FOR SIMPLE INTEREST	amount rate time 	 amount rate time	It should accept all values	                         Pass
        M01W02	         USER NEED TO ENTER DATA FOR COMPOUND INTEREST amount rate time	amount rate time	It should accept all values	                         Pass
-# Low Level Test
+### Low Level Test
 
       Test Code	           Test Description	                        Required Input	      Actual Input	  Expected output	                               Actual result
 
@@ -160,9 +148,3 @@ TO RUN CODE- make run
        M01WA01	       USER NEED TO CHOOSE A MODE OF INTEREST	Option Based Input(1,2,3)	Option Based Input(1,2,3)	Result according to mode of interest	     Pass
        
   ![image](https://user-images.githubusercontent.com/63330246/153559976-75018af0-08f9-46be-a3e3-07bde2835833.png)
-
-
-
-
-
-
