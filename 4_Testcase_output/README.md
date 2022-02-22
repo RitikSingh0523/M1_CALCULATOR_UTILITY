@@ -13,9 +13,6 @@
        M01F07	         USER HAVE TO SELECT OPERATION BASED ON CHOICE	        6	                    6	      It should open factorial calculator                  Pass 
        M01Q03     	     USER NEED TO ENTER DATA FOR SIMPLE INTEREST	amount rate time 	 amount rate time	It should accept all values	                         Pass
        M01W02	         USER NEED TO ENTER DATA FOR COMPOUND INTEREST amount rate time	amount rate time	It should accept all values	                         Pass
-       
-
-
 # Low Level Test
 
       Test Code	           Test Description	                        Required Input	      Actual Input	  Expected output	                               Actual result
