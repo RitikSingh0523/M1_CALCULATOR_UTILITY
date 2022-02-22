@@ -11,12 +11,12 @@ jobs:
 
     runs-on: ubuntu-latest
     
-build:
-	cat main.c calculator.c sinterest.c compound_interest.c >final.c
+	build: main.c calculator.c sinterest.c compound_interest.c
+		cat main.c calculator.c sinterest.c compound_interest.c >final.c
 
-compile:
+	compile: final.c
         
-	gcc final.c -o final.out
+		gcc final.c -o final.out
 
-run:
-	./final.out
+	run:
+		./final.out
