@@ -132,11 +132,9 @@ Use vs complie to run the code
 
 # Run in ubuntu
 
-cat main.c calculator.c compound_interest.c sinterest.c > final.c
-
-gcc final.c -o final.out
-
-./final.out
+TO BUILD CODE - make build
+TO COMPILE CODE - make compile
+TO RUN CODE- make run
 
 # Expected Behaviour 
 
