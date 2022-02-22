@@ -42,19 +42,17 @@ How
 ![code score](https://api.codiga.io/project/30927/status/svg)
 [![pages-build-deployment](https://github.com/RitikSingh0523/M1_CALCULATOR_UTILITY/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/RitikSingh0523/M1_CALCULATOR_UTILITY/actions/workflows/pages/pages-build-deployment)
 [![Cppcheck](https://github.com/RitikSingh0523/M1_CALCULATOR_UTILITY/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/RitikSingh0523/M1_CALCULATOR_UTILITY/actions/workflows/cppcheck.yml)
-
 # 2_Architecture
 
 @ Structural Diagram
 
 ![titleofscreenshot](https://github.com/RitikSingh0523/M1_CALCULATOR_UTILITY/blob/main/2_Architecture/structuraldiagram.png)
-
 @Behavioural Diagram
-
 ![titleofscreenshot](https://github.com/RitikSingh0523/M1_CALCULATOR_UTILITY/blob/main/2_Architecture/behaviouraldiagram.png)
 
-![titleofscreenshot](https://github.com/RitikSingh0523/M1_CALCULATOR_UTILITY/blob/main/2_Architecture/Function1.png)
 
+
+![titleofscreenshot](https://github.com/RitikSingh0523/M1_CALCULATOR_UTILITY/blob/main/2_Architecture/Function1.png)
 @Main Function
 
 Start Program
@@ -70,8 +68,6 @@ choice 2;
 .
 .
 default;
-
-
 @ call first function
 
 declear functions
@@ -85,7 +81,6 @@ else if operator = "*" result = firstNumber * secondNumber
 else if operator = "/" result = firstNumber / secondNumber
 
 return result
-
 @call secound function
 
 declear functions
@@ -94,7 +89,6 @@ inputData = Read_Input()
 compound interest=p(1+(r/n))^t
 
 return result;
-
 @call third function
 
 declear functions
@@ -116,7 +110,6 @@ TO BUILD CODE - make build
 TO COMPILE CODE - make compile
 
 TO RUN CODE- make run
-
 # Expected Behaviour 
  First it will ask you to select a input for selecting a type of calculator.
  
@@ -155,6 +148,3 @@ TO RUN CODE- make run
        M01WA01	       USER NEED TO CHOOSE A MODE OF INTEREST	Option Based Input(1,2,3)	Option Based Input(1,2,3)	Result according to mode of interest	     Pass
        
   ![image](https://user-images.githubusercontent.com/63330246/153559976-75018af0-08f9-46be-a3e3-07bde2835833.png)
-
-
-
