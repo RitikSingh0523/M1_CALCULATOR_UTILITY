@@ -16,7 +16,7 @@ Statement of evere line should be clear.
 So user can understand each Statement and give input according to Statement
 
 Calculator Should not give wrong output.
-## 4w's & 1H
+### 4w's & 1H
 Who 
   >Anyone Who Wants to perform basic arthmatic calculation.
 
