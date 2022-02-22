@@ -22,7 +22,6 @@ Statement of evere line should be clear.
 So user can understand each Statement and give input according to Statement.
 
 Calculator Should not give wrong output.
-
 # 4w's & 1H
 
 Who 
@@ -36,10 +35,8 @@ Where
 
 when
   >Can be used to perform all basic arthmatic operations.
-
-# How
+How
   >Developed Using c Programming
-
 # Badge
 ![CODE QUALITY SCORE](https://api.codiga.io/project/30927/score/svg)
 ![code score](https://api.codiga.io/project/30927/status/svg)
