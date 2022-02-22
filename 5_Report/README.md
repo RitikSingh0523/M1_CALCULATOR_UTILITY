@@ -5,13 +5,17 @@
 # Description
 
 IT IS A BASIC CALCULATOR FOR NORMAL USE.
+
 WHICH CONTAINS DIFFERENT FEATURE FOR DIFFERENT OPERATION.
+
 IN THIS CALCULATOR YOU CAN CHOOSE WHICH KIND OF CALCULATOR YOU WANT TO USE.
 
 # High Level Requirment
 
 You Have Different feature you can choose with
+
 If want calculate you compound interest or simple interest or simple calculator function
+
 User Will be able to do these things without any complexity.
 
 # Low level requirment
@@ -126,11 +130,11 @@ Use vs complie to run the code
 
 # Run in ubuntu
 
-Run command gcc filename.c to complie
+TO BUILD CODE - make build
 
-Run command gcc filename.c -o output-filename to create output file
+TO COMPILE CODE - make compile
 
-Run command ./output-filename to run command
+TO RUN CODE- make run
 
 # Expected Behaviour 
 
