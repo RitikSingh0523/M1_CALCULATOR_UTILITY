@@ -1,13 +1,8 @@
-
 # M1_CALCULATOR_UTILITY
-
-
 # Description
 
 IT IS A BASIC CALCULATOR FOR NORMAL USE.
-
 WHICH CONTAINS DIFFERENT FEATURE FOR DIFFERENT OPERATION.
-
 IN THIS CALCULATOR YOU CAN CHOOSE WHICH KIND OF CALCULATOR YOU WANT TO USE.
 
 # High Level Requirment
@@ -117,23 +112,14 @@ inputData = Read_Input()
 simple interest= (p*r*t)/100;
 
 return result;
-
-
 # Implementation
-
 # Installlation
-
 First Install IDE for c Language.
 Suggation- Use VS code
 Install C Extention
-
-
 # Run in Windows
-
 Use vs complie to run the code
-
 # Run in ubuntu
-
 TO BUILD CODE - make build
 
 TO COMPILE CODE - make compile
@@ -148,10 +134,6 @@ TO RUN CODE- make run
 ##### If you select Simple Calculator you have option to choose +,-,*,'/',^,!.
 ##### If you select Simple Interest you have to fill detail about Amount time and rate.
 ##### If you select Compound Interest you have to fill detail about Amount time and rate.
-
-
-
-
 # High Level Test
 
 
@@ -167,9 +149,6 @@ TO RUN CODE- make run
        M01F07	         USER HAVE TO SELECT OPERATION BASED ON CHOICE	        6	                    6	      It should open factorial calculator                  Pass 
        M01Q03     	     USER NEED TO ENTER DATA FOR SIMPLE INTEREST	amount rate time 	 amount rate time	It should accept all values	                         Pass
        M01W02	         USER NEED TO ENTER DATA FOR COMPOUND INTEREST amount rate time	amount rate time	It should accept all values	                         Pass
-       
-
-
 # Low Level Test
 
       Test Code	           Test Description	                        Required Input	      Actual Input	  Expected output	                               Actual result
