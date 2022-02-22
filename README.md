@@ -46,11 +46,6 @@ when
 [![pages-build-deployment](https://github.com/RitikSingh0523/M1_CALCULATOR_UTILITY/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/RitikSingh0523/M1_CALCULATOR_UTILITY/actions/workflows/pages/pages-build-deployment)
 [![Cppcheck](https://github.com/RitikSingh0523/M1_CALCULATOR_UTILITY/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/RitikSingh0523/M1_CALCULATOR_UTILITY/actions/workflows/cppcheck.yml)
 
-
-
-
-
-
 # 2_Architecture
 
 @ Structural Diagram
@@ -61,7 +56,6 @@ when
 
 ![titleofscreenshot](https://github.com/RitikSingh0523/M1_CALCULATOR_UTILITY/blob/main/2_Architecture/behaviouraldiagram.png)
 
-# Function
 ![titleofscreenshot](https://github.com/RitikSingh0523/M1_CALCULATOR_UTILITY/blob/main/2_Architecture/Function1.png)
 
 @Main Function
@@ -113,13 +107,13 @@ simple interest= (p*r*t)/100;
 
 return result;
 # Implementation
-# Installlation
+## Installlation
 First Install IDE for c Language.
 Suggation- Use VS code
 Install C Extention
-# Run in Windows
+## Run in Windows
 Use vs complie to run the code
-# Run in ubuntu
+## Run in ubuntu
 TO BUILD CODE - make build
 
 TO COMPILE CODE - make compile
@@ -127,13 +121,15 @@ TO COMPILE CODE - make compile
 TO RUN CODE- make run
 
 # Expected Behaviour 
-
-
-##### First it will ask you to select a input for selecting a type of calculator.
-##### After Selecting it will ask for choose differnt action that you can choose from.
-##### If you select Simple Calculator you have option to choose +,-,*,'/',^,!.
-##### If you select Simple Interest you have to fill detail about Amount time and rate.
-##### If you select Compound Interest you have to fill detail about Amount time and rate.
+ First it will ask you to select a input for selecting a type of calculator.
+ 
+ After Selecting it will ask for choose differnt action that you can choose from.
+ 
+ If you select Simple Calculator you have option to choose +,-,*,'/',^,!.
+ 
+ If you select Simple Interest you have to fill detail about Amount time and rate.
+ 
+ If you select Compound Interest you have to fill detail about Amount time and rate.
 # High Level Test
 
 
