@@ -8,52 +8,60 @@
 double simple();
 double ci();
 double si();
-int sum(double operand1,double operand2)
+double sum(double operand1,double operand2)
         {
+            printf("Sum is=%lf",operand1+operand2);
             return operand1+operand2;
         }
-int substract(double operand1,double operand2)
+double substract(double operand1,double operand2)
         {
+            printf("Substract is=%lf",operand1-operand2);
             return operand1-operand2;
         }
-int mul(double operand1,double operand2)
+double mul(double operand1,double operand2)
         {
-            return operand1*operand2;
+            double mp=operand1*operand2;
+            printf("Multiplication is=%lf",operand1*operand2);
+            return mp;
         }
-int div(double operand1,double operand2)
+double div(double operand1,double operand2)
         {
             
             if(operand2==0)
         {
+            printf("ERROR");
             return 0;
         }
         else{
-            
-            return operand1/operand2;
+            double dv=operand1/operand2;
+            printf("Division is=%lf",dv);
+            return dv;
             
         }
         }
-int square(double operand1)
+double square(double operand1)
         {
-            printf("Square is =%0.2lf",operand1*operand1);
+            printf("Square is =%lf",operand1*operand1);
+            return operand1*operand1;
         }
-int facto(int operand1)
+double facto(int operand1)
 {
     double fact=1;
      for (int i = 1; i <= operand1; i++)
         {
             fact=i*fact;
         }
-        printf("Factorial=%0.2lf",fact);
+        printf("Factorial is =%lf",fact);
+        return fact;
 }
-int simp(double p,double r,double t)
+double simp(double p,double r,double t)
 {
     double si=(p*r*t)/100;
-    printf("Simple Interest of amount %0.2lf is =%0.2f",p,si);
-    printf("\nTotal Amount is %0.2lf",si+p);
+    return si;
+    printf("Simple Interest Is=%lf",si);
     printf("\n");
 }
-int yearly(double p,double r,double t)
+double yearly(double p,double r,double t)
 {
     double q=(1+r/100);
         
@@ -62,11 +70,11 @@ int yearly(double p,double r,double t)
         {
             pow=pow*q;
         }
-        
-        printf("\nTotal Interest=%0.2lf",p*pow);
-        printf("\nInterest Amount=%0.2lf",p*pow-p);
+    printf("Yearly Interest is=%lf",p*pow);   
+    return p*pow;
+       
 }
-int hyear(double p,double r,double t)
+double hyear(double p,double r,double t)
 {
     double q=(1+r/200);
         double pow=1;
@@ -74,11 +82,11 @@ int hyear(double p,double r,double t)
         {
             pow=pow*q;
         }
-        printf("\nTotal Interest=%0.2lf",p*pow);
-        printf("\nInterest Amount=%0.2lf",p*pow-p);
-
+    
+    printf("Yearly Interest is=%lf",p*pow);
+    return p*pow;
 }
-int quater(double p,double r,double t)
+double quater(double p,double r,double t)
 {
     double q=(1+r/400);
         double pow=1;
@@ -86,10 +94,11 @@ int quater(double p,double r,double t)
         {
             pow=pow*q;
         }
-        printf("\nTotal Interest=%0.2lf",p*pow);
-        printf("\nInterest Amount=%0.2lf",p*pow-p);
+    
+    printf("Quaterly Interest is=%lf",p*pow);
+    return p*pow;
 }
-int monthly(double p,double r,double t)
+double monthly(double p,double r,double t)
 {
     double q=(1+r/1200);
         double pow=1;
@@ -97,6 +106,6 @@ int monthly(double p,double r,double t)
         {
             pow=pow*q;
         }
-        printf("\nTotal Interest=%0.2lf",p*pow);
-        printf("\nInterest Amount=%0.2lf",p*pow-p);
+    printf("Monthly Interest is=%lf",p*pow); 
+    return p*pow;  
 }

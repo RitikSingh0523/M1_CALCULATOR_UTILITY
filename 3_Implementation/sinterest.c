@@ -9,4 +9,5 @@ double si()
     printf("Enter Time=");
     scanf("%lf",&t);
     return simp(p,r,t);
+    printf("\n");
 }
