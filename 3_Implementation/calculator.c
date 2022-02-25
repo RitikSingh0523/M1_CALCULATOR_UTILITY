@@ -45,7 +45,7 @@ double simple(int z)
         printf("Wrong Input");
         break;
     }
-    printf("\n");
+    
 
 
 }
