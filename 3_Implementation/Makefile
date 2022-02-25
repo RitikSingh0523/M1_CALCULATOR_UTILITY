@@ -3,7 +3,7 @@ build:
 
 compile:
         
-		gcc final.c -o final.out
+		gcc final.c -o final.o
 
 run:
-	./final.out
+	./final.o

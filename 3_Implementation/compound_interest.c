@@ -13,45 +13,19 @@ double ci()
     scanf("%d",&n);
     if(n==1)
     {
-        double q=(1+r/100);
-        
-        double pow=1;
-        for(int i=0; i<t;i++)
-        {
-            pow=pow*q;
-        }
-        
-        printf("\nCompound Interest=%lf",p*pow);
+        return yearly(p,r,t);
     }
     else if(n==2)
     {
-        double q=(1+r/200);
-        double pow=1;
-        for(int i=0; i<t*2;i++)
-        {
-            pow=pow*q;
-        }
-        printf("Compound Interest=%lf",p*pow);
+        return hyear(p,r,t);
     }
     else if(n==3)
     {
-        double q=(1+r/400);
-        double pow=1;
-        for(int i=0; i<t*4;i++)
-        {
-            pow=pow*q;
-        }
-        printf("\nCompound Interest=%lf",p*pow);
+        return quater(p,r,t);
     }
     else if(n==4)
     {
-        double q=(1+r/1200);
-        double pow=1;
-        for(int i=0; i<t*12;i++)
-        {
-            pow=pow*q;
-        }
-        printf("\nCompound Interest=%lf",p*pow);
+        return monthly(p,r,t);
     }
     else{
         printf("\nwrong input");
