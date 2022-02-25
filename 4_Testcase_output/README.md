@@ -26,3 +26,4 @@
        M01WA01	       USER NEED TO CHOOSE A MODE OF INTEREST	Option Based Input(1,2,3)	Option Based Input(1,2,3)	Result according to mode of interest	     Pass
        
    ![image](https://user-images.githubusercontent.com/63330246/153559976-75018af0-08f9-46be-a3e3-07bde2835833.png)
+   ![image](https://github.com/RitikSingh0523/M1_CALCULATOR_UTILITY/blob/main/4_Testcase_output/TEST%20AUTOMATED.png)
