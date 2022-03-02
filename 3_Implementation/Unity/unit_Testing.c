@@ -1,6 +1,7 @@
 #define UNITY_INCLUDE_DOUBLE()
 #include"unity.h"
 #include"../calc.h"
+#include"../decl.c"
 #include"unity_internals.h"
 #include"unity.c"
 
