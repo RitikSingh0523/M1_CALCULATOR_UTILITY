@@ -20,4 +20,4 @@ run:Build
 static_analysis:
 	cppcheck --enable=all $(SRC)
 dynamic_analysis: Build
-   valgrind ./main.out
+  	valgrind ./main.out
