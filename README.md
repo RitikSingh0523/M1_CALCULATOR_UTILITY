@@ -100,18 +100,8 @@ simple interest= (p*r*t)/100;
 
 return result;
 # Implementation
-## Installlation
-First Install IDE for c Language.
-Suggation- Use VS code
-Install C Extention
-## Run in Windows
-Use vs complie to run the code
-## Run in ubuntu
-TO BUILD CODE - make build
-
-TO COMPILE CODE - make compile
-
-TO RUN CODE- make run
+make Build For building program
+make run for running program
 ### Expected Behaviour 
  First it will ask you to select a input for selecting a type of calculator.
  
