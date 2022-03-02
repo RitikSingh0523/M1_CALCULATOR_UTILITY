@@ -43,6 +43,7 @@ How
 [![pages-build-deployment](https://github.com/RitikSingh0523/M1_CALCULATOR_UTILITY/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/RitikSingh0523/M1_CALCULATOR_UTILITY/actions/workflows/pages/pages-build-deployment)
 [![Cppcheck](https://github.com/RitikSingh0523/M1_CALCULATOR_UTILITY/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/RitikSingh0523/M1_CALCULATOR_UTILITY/actions/workflows/cppcheck.yml)
 [![Build Linux](https://github.com/RitikSingh0523/M1_CALCULATOR_UTILITY/actions/workflows/Build-Linux.yml/badge.svg)](https://github.com/RitikSingh0523/M1_CALCULATOR_UTILITY/actions/workflows/Build-Linux.yml)
+[![C/C++ CI](https://github.com/RitikSingh0523/M1_CALCULATOR_UTILITY/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/RitikSingh0523/M1_CALCULATOR_UTILITY/actions/workflows/c-cpp.yml)
 # 2_Architecture
 
 @ Structural Diagram
