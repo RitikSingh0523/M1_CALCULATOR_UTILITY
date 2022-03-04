@@ -101,6 +101,8 @@ simple interest= (p*r*t)/100;
 return result;
 # Implementation
 make Build For building program
+
+
 make run for running program
 ### Expected Behaviour 
  First it will ask you to select a input for selecting a type of calculator.
